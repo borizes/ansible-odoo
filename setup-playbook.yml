@@ -1,0 +1,7 @@
+- name: Odoo
+  hosts: odoo_server
+  become: yes
+  roles:
+    - role: ansible-odoo
+      odoo_version: 11.0
+      odoo_config_admin_passwd: Cm0khbu@p

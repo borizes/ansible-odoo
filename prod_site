@@ -1,0 +1,8 @@
+[odoo_server]
+35.198.254.71   hostname=serbu-server   ansible_ssh_host=35.198.254.71 ansible_ssh_user=ariss
+
+[db]
+ansible_ssh_host=35.198.254.71 ansible_ssh_user=ariss
+
+[nginx]
+ansible_ssh_host=35.198.254.71 ansible_ssh_user=ariss
